@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/motorola/exynos9610-common
+LOCAL_PATH := device/samsung/exynos9610-common
 
 ifneq ($(filter kane troika, $(TARGET_DEVICE)),)
 

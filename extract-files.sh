@@ -9,7 +9,7 @@
 set -e
 
 DEVICE_COMMON=exynos9610-common
-VENDOR=motorola
+VENDOR=samsung
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

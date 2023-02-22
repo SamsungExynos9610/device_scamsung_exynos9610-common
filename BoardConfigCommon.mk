@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
-COMMON_PATH := device/motorola/exynos9610-common
+COMMON_PATH := device/samsung/exynos9610-common
 
 ## Include path
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
 ## Inherit proprietary vendor configuartion
-include vendor/motorola/exynos9610-common/BoardConfigVendor.mk
+include vendor/samsung/exynos9610-common/BoardConfigVendor.mk
 
 # BUILD_BROKEN_*
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
@@ -94,7 +94,7 @@ BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_CLANG_VERSION := r416183b
 TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_TAG)/clang-$(TARGET_KERNEL_CLANG_VERSION)
 TARGET_KERNEL_LLVM_BINUTILS := false
-TARGET_KERNEL_SOURCE := kernel/motorola/exynos9610
+TARGET_KERNEL_SOURCE := kernel/samsung/exynos9610
 
 ## Manifest
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml

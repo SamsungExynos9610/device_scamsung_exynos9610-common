@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-COMMON_PATH := device/motorola/exynos9610-common
+COMMON_PATH := device/samsung/exynos9610-common
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/motorola/exynos9610-common/exynos9610-common-vendor.mk)
+$(call inherit-product, vendor/samsung/exynos9610-common/exynos9610-common-vendor.mk)
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
